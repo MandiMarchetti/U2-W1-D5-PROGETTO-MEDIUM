@@ -113,8 +113,61 @@ section{
     justify-content: center;
     flex-grow: 2;
 }
+.blockimg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.topblock{
+    display: flex;
+    
+}
+.img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.name{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    margin-left: 1rem;
+}
+
+.phrase{
+    display: flex;
+    width: 80%;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    margin-left: 1rem;
+    
+}
+.block2{
+    display: flex;
+    justify-content: space-between;
+}
+.data{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+}
+
+.tempo{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+}
 
 
+/*next*/
 
 
 
