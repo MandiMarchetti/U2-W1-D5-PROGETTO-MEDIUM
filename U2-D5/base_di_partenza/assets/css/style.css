@@ -1,0 +1,293 @@
+
+/*INTESTAZIONE*/
+
+header{
+    background-color: #FFC017;
+    width: 100%;
+    height: 500px;
+    border-bottom: solid 1px black;
+    /*display: flex;
+    position: relative;*/
+}
+
+header .M{
+    width: 35%;
+    position: absolute;
+    left: 65vw;
+    top: 22vh;
+    
+}
+.intestazione{
+    display: flex;
+    position: absolute;
+    /*position: fixed;*/
+    width: 100%;
+    border: solid 1px black;
+    height: 10vh;
+    
+}
+.contetuti{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.riga{
+    display: flex;
+    width: 90%;
+    align-items: baseline;
+    /*border: black solid 1px;*/
+}
+#logo{
+    width: 38px;
+    height: auto;
+}
+.vuoto{
+    flex: 1 2 auto;
+
+}
+.menu, .span, .botone{
+    display: inline;
+}
+
+/*BODY*/
+
+section{
+    margin: 0 64px;
+}
+.totaleTrending{
+    width: 100%;
+    height: auto;
+}
+.trending{
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+.intestazioneTrending{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    align-items: center;
+}
+.intestazioneTrending h2{
+    font-size: 1.2rem;
+
+}
+#imageTrending{
+    margin-right: 10px;
+    display: block;
+    vertical-align: middle;
+    width: 28;
+    height: 29;
+}
+.contenutoTrending{
+    display: block;
+    width: 100%;
+}
+.ajustingContent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+/*CONTENT TRENDING*/
+.divTrend1{
+    display: flex;
+}
+.number{
+    display: flex;
+    width: 50px;
+    height: 120px;
+    
+}
+.num1{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#a5a5a5;
+    font-weight:400;
+    font-size: 2em;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.divTrend3{
+    display: flex;
+}
+.quadrado1{
+    display: flex;
+    width: 50px;
+    height: 120px;
+    background-color: blue;
+}
+.num{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.quadrado2{
+    display: block;
+    width: 300px;
+    height: 120px;
+    background-color: red;
+}
+.imagem{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+}
+.nome{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    background-color: green;
+}
+
+.block1{
+    display: flex;
+    
+}
+.frase{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+}
+.block2{
+    display: flex;
+    justify-content: space-between;
+}
+.data{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+}
+
+.tempo{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+}
+
+
+/**/
+
+
+
+
+
+
+
+.divTrend{
+    padding-right: 16px;
+    padding-right: 16px;
+}
+#titolo img{
+    border-radius: 50%;
+    height: 20px;
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+
+
+.first{
+    display: flex;
+    display: inline;
+    
+}
+#numero{
+    display: block;
+    width: 15px;
+}
+.contenuto{
+    display: block;
+      
+}
+
+.aimg{
+    display: flex;
+    
+}
+#titolo{
+    display: flex;
+}
+.phrase{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content div img{
+    border-radius: 50%;
+    height: 20px;
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+
+
+
+
+
+
+.divTrend2{
+    width: 30vw;
+    display: inline;
+}
+
+.number{
+    display: block;
+}
+.number span{
+}
+.content{
+    display: block;
+
+}
+
+.imgEarthur{
+    display: inline-block;
+}
+.imgEarthur img{
+    display: flex;
+}
+.imgEarthur div{
+    display: flex;
+}
+
+/*BUILDING THE STRUCTURE*/
+
