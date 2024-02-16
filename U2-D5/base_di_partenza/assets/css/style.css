@@ -105,11 +105,10 @@ section{
 }
 .num1{
     display: flex;
-    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#a5a5a5;
     font-weight:400;
-    font-size: 2em;
+    font-size: 2.2em;
     justify-content: center;
     flex-grow: 2;
 }
@@ -117,6 +116,7 @@ section{
     display: block;
     width: 100%;
     height: auto;
+    margin-left: 1rem;
 }
 .topblock{
     display: flex;
@@ -124,14 +124,14 @@ section{
 }
 .img{
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     overflow: hidden;
 }
 .name{
     display: flex;
-    width: 250px;
+    width: 100%;
     height: 40px;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -141,29 +141,38 @@ section{
 
 .phrase{
     display: flex;
-    width: 80%;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    align-items:flex-start;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
-    margin-left: 1rem;
+    font-size: 1.6em;
+    padding: 10px 0;
     
 }
-.block2{
+.topblock3{
     display: flex;
     justify-content: space-between;
-}
-.data{
-    display: flex;
-    width: 80px;
-    height: 40px;
-    background-color: pink;
+    color: rgb(110, 107, 107);
 }
 
-.tempo{
+.data1{
     display: flex;
-    width: 80px;
-    height: 40px;
-    background-color: pink;
+    flex-grow: 0.2;
+    align-items:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    height: auto;
+    font-size: 1.2em;
+    
+}
+
+.time1{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    height: auto;
+    font-size: 1.2em;
+    justify-content: flex-end;
 }
 
 
