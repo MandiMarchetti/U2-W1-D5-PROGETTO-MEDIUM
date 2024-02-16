@@ -151,13 +151,11 @@ section{
 }
 .topblock3{
     display: flex;
-    justify-content: space-between;
     color: rgb(110, 107, 107);
 }
 
 .data1{
     display: flex;
-    flex-grow: 0.2;
     align-items:center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 30%;
