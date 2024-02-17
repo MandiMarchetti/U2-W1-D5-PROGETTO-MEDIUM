@@ -11,10 +11,10 @@ header{
 }
 
 header .M{
-    width: 35%;
+    width: 39%;
     position: absolute;
-    left: 65vw;
-    top: 22vh;
+    left: 68vw;
+    top: 8vh;
     
 }
 .intestazione{
@@ -87,7 +87,6 @@ section{
 }
 .ajustingContent{
     display: flex;
-    justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -96,11 +95,13 @@ section{
 /*CONTENT TRENDING*/
 .divTrend1{
     display: flex;
+    width: 50%;
 }
 .number{
     display: flex;
-    width: 50px;
-    height: 120px;
+    width: 37px;
+    height: 110px;
+    margin-left: 1rem;
     
 }
 .num1{
@@ -108,45 +109,48 @@ section{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#a5a5a5;
     font-weight:400;
-    font-size: 2.2em;
+    font-size: 32px;
     justify-content: center;
     flex-grow: 2;
 }
 .blockimg{
     display: block;
-    width: 100%;
     height: auto;
     margin-left: 1rem;
 }
 .topblock{
     display: flex;
-    
 }
 .img{
     display: flex;
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     overflow: hidden;
+    position: relative;
 }
 .name{
     display: flex;
     width: 100%;
-    height: 40px;
+    height: 25px;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.2em;
-    margin-left: 1rem;
+    font-size: 13px;
+    margin-left: 0.8rem;
+}
+
+.topblock2{
+    width: 100%;
+    height: auto;
 }
 
 .phrase{
     display: flex;
-    width: 100%;
-    height: 100%;
     align-items:flex-start;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.6em;
-    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0;
     
 }
 .topblock3{
@@ -160,7 +164,7 @@ section{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 30%;
     height: auto;
-    font-size: 1.2em;
+    font-size: 13px;
     
 }
 
@@ -169,7 +173,7 @@ section{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 30%;
     height: auto;
-    font-size: 1.2em;
+    font-size: 13px;
     justify-content: flex-end;
 }
 
