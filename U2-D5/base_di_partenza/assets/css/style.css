@@ -14,8 +14,8 @@ header{
 }
 
 header .M{
-    
     display: flex;
+    width: 45%;
     
 }
 .header{
@@ -64,10 +64,14 @@ header .M{
 }
 
 .staycurious{
-    display: flex;
+    display: block;
+    padding: 93px 0px;
 }
 .stay{
-    display: ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 106px;
+    width: 100%;
+    letter-spacing: -0.3rem;
 }
 
 /*BODY*/
