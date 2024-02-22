@@ -13,8 +13,7 @@ header{
     padding-top: 85.8px;
 }
 
-header .M{
-    display: flex;
+#M{
     width: 45%;
     
 }
@@ -66,12 +65,17 @@ header .M{
 .staycurious{
     display: block;
     padding: 93px 0px;
+    margin-left: 2rem;
 }
 .stay{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 106px;
     width: 100%;
     letter-spacing: -0.3rem;
+}
+.discover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px; 
 }
 
 /*BODY*/
